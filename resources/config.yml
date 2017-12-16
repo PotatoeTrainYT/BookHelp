@@ -1,0 +1,18 @@
+# BookHelp Configuration
+
+# Enable Or Disable A Page (true / false)
+page-1: true
+page-2: true
+page-3: false
+page-4: false
+page-5: false
+
+# Set Page Text
+# Use '§' For Color
+# Use '\n' For New Line
+
+text-1: §lBookHelp\n\n§r§7Download At https://github.com/PotatoeTrainYT/BookHelp
+text-2: §lPage 2
+text-3: §lPage 3
+text-4: §lPage 4
+text-5: §lPage 5 

@@ -1,0 +1,7 @@
+name: BookHelp
+main: BookHelp\Main
+version: 1.0
+api: 3.0.0-ALPHA10
+
+author: Potatoe
+website: https://github.com/PotatoeTrainYT/BookHelp

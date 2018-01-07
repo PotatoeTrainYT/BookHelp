@@ -10,7 +10,7 @@ use pocketmine\utils\Config;
 
 class Main extends PluginBase implements Listener {
 
-  public funtion onEnable() : void {
+  public function onEnable() : void {
     $this->getLogger()->info("§aBookHelp Enabled");
     $this->loadConfig();
   }

@@ -44,7 +44,7 @@ class Main extends PluginBase implements Listener {
           $book->setTitle($config->get("title"));
           $book->setPageText(0, $config->get("text-1"));
           $book->setPageText(1, $config->get("text-2"));
-          $book->setPageText(2, $config->get("text-3"))
+          $book->setPageText(2, $config->get("text-3"));
           $book->setAuthor($config->get("author"));
           if($player->getInventory()->canAddItem()) {
             $player->getnventory()->addItem($book);

@@ -47,7 +47,7 @@ class Main extends PluginBase implements Listener {
           $book->setPageText(2, $config->get("text-3"));
           $book->setAuthor($config->get("author"));
           if($player->getInventory()->canAddItem()) {
-            $player->getnventory()->addItem($book);
+            $player->getInventory()->addItem($book);
             $player->sendMessage($config->get("item-added-message"));
           }else{
             $player->sendMessage($config->get("full-inv-message"));
